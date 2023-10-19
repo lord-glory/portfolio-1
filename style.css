@@ -372,6 +372,17 @@ nav .fas{
         left: 25px;
         cursor: pointer;
     }
+    .logo{
+        width: 140px;
+        font-weight: 800;
+        font-size: 30px;
+    }
+    .header-text h1{
+        width: 200px;
+    }
+    .header-text{
+        margin-top: 80%;
+    }
     .sub-title{
         font-size: 40px;
     }
