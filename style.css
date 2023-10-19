@@ -104,6 +104,10 @@ nav ul li a:hover::after{
 .about-col-2 {
     flex-basis: 60%;
 }
+.about-col-2 p{
+    font-size: 18px;
+    line-height: 25px;
+}
 .sub-title{
     font-size: 60px;
     font-weight: 600;
@@ -170,6 +174,12 @@ nav ul li a:hover::after{
     font-size: 50px;
     margin-bottom: 30px;
 }
+.services-list p{
+    font-size: 16px;
+    color: #ababab;
+    line-height: 22px;
+    transition: color 0.5s;
+}
 .services-list div h2{
     font-size: 30px;
     font-weight: 500;
@@ -185,6 +195,9 @@ nav ul li a:hover::after{
 .services-list div:hover{
     background: #ff004f;
     transform: translateY(-10px);
+}
+.services-list div:hover p{
+   color: #fff;
 }
 
 /*------------------portfolio--------------------*/
